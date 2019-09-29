@@ -1,11 +1,16 @@
 .header {
   background-color: white;
+
 }
 
 .navbar {
   line-height: 70px;
   padding-left: 10%;
   font-size: 15px;
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  top: 0;
 }
 
 .logo {
@@ -36,6 +41,10 @@ ul {
 a {
   text-decoration: none;
   text-align: center;
+}
+
+.marginfix {
+  margin-top: 70px;
 }
 
 .citypic {
@@ -221,6 +230,16 @@ footer {
 }
 
 @media screen and (max-width: 767px) {
+
+  .menu, .lingue {
+    display:none;
+ }
+
+ .picture h1 {
+  font-size: 35px;
+
+ }
+
   .col-xs-6 {
     padding-bottom: 5%;
     padding-left: 15%;
