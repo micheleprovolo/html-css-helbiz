@@ -1,4 +1,129 @@
-.navbar {
+.header {
   background-color: white;
-  width: 90%;
+
+}
+
+.navbar {
+  /* margin: 0 auto; */
+  line-height: 70px;
+  padding-left: 10%;
+  font-size: 15px;
+}
+
+.logo {
+  float: left;
+  /* margin-right: 20%; */
+  width: 20%;
+}
+
+.menu {
+  float: left;
+  padding-left: 15%;
+  width:60%;
+}
+
+.lingue {
+  float: right;
+  width: 20%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline-block;
+  margin-right: 3%;
+}
+
+a {
+  text-decoration: none;
+  text-align: center;
+}
+
+.citypic {
+  background-image: url("../img/HelbizOrig.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px; /*debug*/
+  position: relative;
+}
+
+.layover {
+  width: 100%;
+  height:100%;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.picture h1 {
+  color: white;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.picture p {
+  color: white;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.centratura {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.prodotti {
+  margin-top: 4%;
+}
+
+.item {
+  width: 40%;
+  background-color: #fafafa;
+  float: left;
+  text-align: center;
+}
+
+.monopattino {
+  margin-left: 7%;
+
+}
+
+.bici {
+  margin-left: 5%;
+}
+
+.item img {
+  max-width: 50%;
+}
+
+.oldman-pic {
+  background-image: url("../img/HelbizBanner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px; /*debug*/
+  position: relative;
+}
+
+.telefono {
+  position: absolute;
+  top: 90%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+}
+
+.telefono img {
+  max-width: 50%;
+}
+
+/* footer */
+footer {
+  background-color: black;
 }
