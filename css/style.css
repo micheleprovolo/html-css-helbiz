@@ -1,6 +1,5 @@
 .header {
   background-color: white;
-
 }
 
 .navbar {
@@ -21,7 +20,7 @@
 .menu {
   float: left;
   padding-left: 15%;
-  width:60%;
+  width: 60%;
 }
 
 .lingue {
@@ -51,13 +50,14 @@ a {
   background-image: url("../img/HelbizOrig.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 400px; /*debug*/
+  height: 400px;
+  /*debug*/
   position: relative;
 }
 
 .layover {
   width: 100%;
-  height:100%;
+  height: 100%;
   background: rgba(0, 0, 0, 0.6);
 }
 
@@ -99,7 +99,6 @@ a {
 
 .monopattino {
   margin-left: 7%;
-
 }
 
 .bici {
@@ -114,7 +113,8 @@ a {
   background-image: url("../img/HelbizBanner.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 500px; /*debug*/
+  height: 500px;
+  /*debug*/
   position: relative;
 }
 
@@ -148,7 +148,8 @@ a {
   background-image: url("../img/ScooterHelbiz-2400.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 500px; /*debug*/
+  height: 500px;
+  /*debug*/
   margin-left: 3%;
   margin-right: 3%;
   margin-top: 3%;
@@ -230,15 +231,46 @@ footer {
 }
 
 @media screen and (max-width: 767px) {
-
   .menu, .lingue {
-    display:none;
- }
+    display: none;
+  }
 
- .picture h1 {
-  font-size: 35px;
+  .picture h1 {
+    font-size: 35px;
+  }
 
- }
+  .picture p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+  }
+
+  .centratura {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-55%, -50%);
+  }
+
+  .oldman-pic {
+    height: 150px;
+    /*debug*/
+  }
+
+  .img-estesa {
+    height: 250px;
+    /*debug*/
+    padding-right: 3%;
+  }
+
+  .img-estesa h2 {
+    font-size: 25px;
+  }
+
+  .uno, .due {
+    height: 250px;
+  }
 
   .col-xs-6 {
     padding-bottom: 5%;
@@ -249,46 +281,43 @@ footer {
 @media screen and (min-width: 768px) and (max-width: 991px) {
 
   .menu, .lingue {
-    display:none;
- }
+    display: none;
+  }
 
- .picture p {
-   position: absolute;
-   top: 50%;
-   left: 50%;
-   transform: translate(-50%, -50%);
- }
+  .picture p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
 
- .centratura {
-   position: absolute;
-   top: 75%;
-   left: 50%;
-   transform: translate(-50%, -50%);
- }
+  .centratura {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
 
- .oldman-pic {
-   background-image: url("../img/HelbizBanner.jpg");
-   background-repeat: no-repeat;
-   background-size: cover;
-   height: 300px; /*debug*/
-   position: relative;
- }
+  .oldman-pic {
+    height: 300px;
+    /*debug*/
+  }
 
- .img-estesa {
-   height: 300px; /*debug*/
-   padding-right: 5%;
- }
+  .img-estesa {
+    height: 300px;
+    /*debug*/
+    padding-right: 5%;
+  }
 
- .img-estesa h2 {
-   font-size: 30px;
- }
+  .img-estesa h2 {
+    font-size: 30px;
+  }
 
- .col-xs-6 {
-   padding-left: 5%;
- }
+  .col-xs-6 {
+    padding-left: 5%;
+  }
 
-.uno, .due {
-  height: 300px;
-}
-
+  .uno, .due {
+    height: 300px;
+  }
 }
